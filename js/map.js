@@ -14,7 +14,7 @@ jQuery(document).ready(function() {
 	var curitiba = [-25.4296, -49.2721];
 	var popupTemplate = jQuery('#popup-template').html();
 
-	var map = L.map('mapa-feiras').setView(curitiba, 13);
+	var map = L.map('mapa-feiras').setView(curitiba, 12);
 	L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 		{
 		maxZoom: 18,

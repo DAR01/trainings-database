@@ -1,7 +1,7 @@
 jQuery(document).ready(function() {
 
 	jQuery.ajax({
-		url: "data/trainings.json",
+		url: "https://tablefilter.herokuapp.com/spreadsheets/1vBtzF3JQ5zjoyNLs1asAKn0Dxy6WqUmSynxBRtlu988",
 	})
   .done(function(result) {
 

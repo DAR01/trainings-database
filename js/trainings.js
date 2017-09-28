@@ -9,7 +9,7 @@ jQuery(document).ready(function() {
 		for (var index = 0; index < result.length; index++) {
 			node = result[index];
 			table.row.add([
-				'<a href="' + node.document_link + '" target="_blank">' + node.title + '</a>',
+				'<a href="' + node.link + '" target="_blank">' + node.title + '</a>',
 				node.data_pipeline,
 				node.audience_level,
 				node.tags
